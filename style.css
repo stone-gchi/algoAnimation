@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  text-align: center;
+  background-color: aquamarine;
+  padding: 20px;
+}
+
+#display {
+  width: 800px;
+  height: 400px;
+}
+
+.bar {
+  width: 28px;
+  position: absolute;
+  bottom: 0;
+  background-color: grey;
+  transition: 0.5s all ease;
+}
+
+.bar-label {
+  position: absolute;
+  top: -24px;
+  width: 100%;
+  text-align: center;
+}
